@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fy"
+        android:title="first_year">
+
+        <menu>
+            <item
+                android:id="@+id/fs"
+                android:title="first sem"/>
+            <item
+                android:id="@+id/ss"
+                android:title="second sem"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/sy"
+        android:title="second year">
+        <menu>
+            <item
+                android:id="@+id/ts"
+                android:title="third sem"/>
+            <item
+                android:id="@+id/fours"
+                android:title="fourth sem"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/ty"
+        android:title="third year">
+        <menu>
+            <item
+                android:id="@+id/fifs"
+                android:title="fifth sem"/>
+            <item
+                android:id="@+id/sixs"
+                android:title="sixth sem"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/foury"
+        android:title="fourth year">
+        <menu>
+            <item
+                android:id="@+id/sevens"
+                android:title="seventh sem"/>
+            <item
+                android:id="@+id/es"
+                android:title="eighth sem"/>
+        </menu>
+    </item>
+
+</menu>
